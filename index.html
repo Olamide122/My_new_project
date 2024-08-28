@@ -1,39 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My_calculator_design</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="calc.js"></script>
+        <meta charset="utf-8">
+        <title>Maths Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="styling.css">
+        <script src="webSite.js"></script>
     </head>
     <body>
-        <div class="calculator-container">
-            <div class="screen">
-                <div id="calculator-display"></div>
-                <div id="final-result"></div>
+        <div class="container">
+            <div class="header">
+                <div class="navside">B
+                         
+                </div>
+                <div class="exitSide">
+                    <p>Bajomo Olamide <i class="fa-solid fa-right-from-bracket"></i></p>
+                </div>
             </div>
-            <div class="calculator-keys">
-                <button onclick="appendToDisplay('1')">1</button>
-                <button onclick="appendToDisplay('2')">2</button>
-                <button onclick="appendToDisplay('3')">3</button>
-                <button onclick="appendToDisplay('+')">+</button>
-                <button onclick="appendToDisplay('4')">4</button>
-                <button onclick="appendToDisplay('5')">5</button>
-                <button onclick="appendToDisplay('6')">6</button>
-                <button onclick="appendToDisplay('-')">-</button>
-                <button onclick="appendToDisplay('7')">7</button>
-                <button onclick="appendToDisplay('8')">8</button>
-                <button onclick="appendToDisplay('9')">9</button>
-                <button onclick="appendToDisplay('*')">*</button>
-                <button onclick="appendToDisplay('0')">0</button>
-                <button onclick="appendToDisplay('.')">.</button>
-                <button class= "delete" onclick="clearLastElement()">DEl</button>
-                <button onclick="appendToDisplay('/')">/</button>
-                <button class = "clear" onclick="clearDisplay()">AC</button>
-                <button class="result" onclick="calculateResult()">=</button>
-                
+            <div class="dashboard">
+                <div class="main">
+                    <div class="title">
+                        <p>Welcome</p>
+                        <h1>BAJOMO OLAMIDE</h1>
+                    </div>
+                    <div class="data">
+                        <div class="records">
+                            <div class="rec_1">Ward Rounds</div>
+                            <div class="rec_2">
+                                <div class="rec_2icon"></div>
+                                <div class="rec_2fig">0</div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="rec_1">Patients Admitted</div>
+                            <div class="rec_2">
+                                <div class="rec_2icon"></div>
+                                <div class="rec_2fig">0</div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="rec_1">Patients Discharged</div>
+                            <div class="rec_2">
+                                <div class="rec_2icon"></div>
+                                <div class="rec_2fig">0</div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="rec_1">Vitals Recorded</div>
+                            <div class="rec_2">
+                                <div class="rec_2icon"></div>
+                                <div class="rec_2fig">0</div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="rec_1">Input/Output Recoreded</div>
+                            <div class="rec_2">
+                                <div class="rec_2icon"></div>
+                                <div class="rec_2fig">0</div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="vert"></div>
+                <div class="tables">
+                    <div class="tables-title">
+                        <h3>Recent Appointments</h3>
+                    </div>
+                    <div class="sub-tables">
+                        <table>
+                            <thead>
+                                <tr><th>Name</th><th>Hospital Number</t></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                    <div class="tables2-title">
+                        <h3>On Duty</h3>
+                    </div>
+                    <div class="sub-tables2">
+                        <table>
+                            <thead>
+                                <tr><th>Name</th><th>On Duty</t></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                                <tr><td>a</td><td>A</td></tr>
+                            </tbody>   
+                        </table>
+                    </div>
+                </div>
             </div>
+            
+
         </div>
     </body>
 </html>
- 
