@@ -14,7 +14,7 @@
     flex-direction: row;
     padding: 20px 0 20px 20px;
     position: fixed;
-    width: 1400px;
+    width: 100%;
     justify-content: space-between;
 }
 .navside {
